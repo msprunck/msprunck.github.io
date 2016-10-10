@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="matthieu-sprunck">Matthieu Sprunck</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">1005 Ch du Puy</td>
+<td align="right">matthieu@sprunck.com</td>
+</tr>
+<tr class="even">
+<td align="left">F-06600 Antibes</td>
+<td align="right"><span class="citation">@msprunck</span></td>
+</tr>
+<tr class="odd">
+<td align="left">France</td>
+<td align="right">+33 670270425</td>
+</tr>
+</tbody>
+</table>
+<h2 id="summary">Summary</h2>
+<p>Senior Engineer with over 14 years of cross-disciplinary experience in software development. I was involved in many projects requesting an in-depth knowledge of web technologies and a high ability to learn new IT standards and frameworks. These technologies go from web programming to heavy client or embedded applications. I have a grant interest in IT developments. I take advantage of each mission to improve my skills and develop a good judgment about deployed technical architectures.</p>
+<p><strong>Specialties</strong>: Stream computing, Software and Web architecture, Server administration</p>
+<h2 id="technical">Technical skills</h2>
+<dl>
+<dt>Programming</dt>
+<dd>Clojure, Java, Scala, Javascript, XML
+</dd>
+<dt>Big Data</dt>
+<dd>Kafka, Zookeeper, Hadoop, MapReduce, HDFS
+</dd>
+<dt>Database</dt>
+<dd>MongoDB, MySQL, Redis, ElasticSearch, MongoDB, Druid
+</dd>
+<dt>OS</dt>
+<dd>Linux, Mac, Windows
+</dd>
+<dt>Devops</dt>
+<dd>Docker, Marathon/Mesos
+</dd>
+<dt>Monitoring</dt>
+<dd>Kibana, Riemann
+</dd>
+</dl>
+<h2 id="experience">Experience</h2>
+<dl>
+<dt><strong>January 2015-Present</strong></dt>
+<dd><p><em>Senior Software Engineer at Vigiglobe</em></p>
+<p>I took part in the development of components in the distributed data enrichment pipeline from ingestion to storage. I also developed new features in the data access API.</p>
+<p><em>Technologies:</em> Clojure, Kafka, Zookeeper, Druid, Redis, Elasticsearch, MongoDB, Riemann, Mesos/Marathon</p>
+</dd>
+<dt><strong>February 2012-December 2014</strong></dt>
+<dd><p><em>Senior Software Engineer at Sogeti</em></p>
+<p><strong>Project Vistana</strong> - <em>Amadeus</em></p>
+<p>Backend Development for a Business Intelligence product using Scala and Hadoop MapReduce with Scoobi.</p>
+<p><strong>Meta</strong> - <em>Orange</em></p>
+<p>I led the development of new features on a data aggregation platform mainly based on Apache Camel.</p>
+<p><em>Technologies:</em> Java, ElasticSearch, ServiceMix OSGI, JMS, Camel, Spring, Jenkins/Sonar, Checkstyle, PMD, Findbugs, JUnit, XML, XSD, Docker.</p>
+<p><strong>TVT</strong> - <em>Airbus</em></p>
+<p>TVT is a software tool to validate the Pixel Factory, a satellite image-processing library. I participated to the design and wrote functional specifications. To ensure code quality, I set up continuous integration around Jenkins and Sonar. I also developed core functionalities.</p>
+<p><em>Technologies:</em> Java, UML, JUnit, Checkstyle, PMD, Findbugs, Jenkins/Sonar, XML, JPA, Hibernate, SQLite, Guice.</p>
+<p><strong>PROX</strong> - <em>Thales Alenia Space</em></p>
+<p>PROX is a software component of the satellite control center. It is a graphical user interface, which is dedicated to command sending and procedures execution. I was in charge of project management and change request analysis. I also developed new features. Due to the context of the project, we had to respect a strict quality process.</p>
+<p><em>Technologies:</em> Java, Swing, JUnit, JMS, XML, XSD, Eclipse RCP, SVN.</p>
+</dd>
+<dt><strong>January 2008-December 2011</strong></dt>
+<dd><p><em>CTO at Ecce Vino</em></p>
+<p>Ecce Vino website is a guide for wines sold on the Internet. You can compares offers from more than 30 merchant sites using a search engine. The site also offers many articles to learn or explore themes about wine. This site is powered by the open source content management system Drupal. I was in charge of project management, software architecture and administration of Linux servers. I also participated in the research program that enabled the establishment of a wine recommendation engine.</p>
+<p><em>Technologies:</em> PHP, MySQL, Drupal, Ubercart, Java, Jetty, Solr/Lucene, Phonegap, jQuery Mobile, Backbone.js, node.js.</p>
+</dd>
+<dt><strong>March 2007-January 2008</strong></dt>
+<dd><p><em>Software Engineer at Logos IT</em></p>
+<p><strong>Caceis Bank</strong></p>
+<p>I wrote the functional and technical specifications concerning new features of a budget management application. I developed the prototype.</p>
+</dd>
+<dt><strong>March 2005-March 2007</strong></dt>
+<dd><p><em>Software Engineer at Trasys</em></p>
+<p><strong>CIRCA</strong> – <em>European Commission Luxembourg</em></p>
+<p>CIRCA is a web-based groupware providing online services that offer a common virtual space for Workgroups, enabling the effective and secure sharing of resources and documents. This application is based on the open source content management system Alfresco. I was in charge of the design and development of new features.</p>
+<p><em>Technologies:</em> Visual Basic, Access SQL, Server</p>
+<p><strong>IPM</strong> - <em>European Commission Luxembourg</em></p>
+<p>The IPM application aims to manage the whole lifecycle of online surveys. It consists of three main modules, each one accessed through the Internet. The Form Generator allows the creation of questionnaires. People encode their replies to surveys thanks to the second module named Form Runner. Then survey managers can gather replies and make some analysis of results by using the Form Viewer. I participated to the development of new features and the improvement of core functionalities. I was involved in all technical facets of the project: implementation of business processes (Java and XSLT), interactions with database (SQL), generation of content for the UI (XHTML), for export of data (STX).</p>
+<p><em>Technologies:</em> Java, XML, XSL, XSD, Cocoon 2, Oracle, MySQL, Tomcat, Spring, JSF, Web Services, Hibernate Lucene, Alfresco SDK.</p>
+</dd>
+<dt><strong>September 2001-February 2005</strong></dt>
+<dd><p><em>Software Engineer at Sogeti</em></p>
+<p><strong>Tests platforms</strong> - <em>SWING-WS</em></p>
+<p>The aim of the project was to develop the software components of an electronics cards tests bench. The software is composed of two parts, an embedded part (C) used by the microcontroller of the card under test and another part used by the tests sequencer (Java). The tests sequencer commands some elementary functions of the electronic card via a serial link.Purpose. I developed the software part of the tests bench using C and Java programming languages.</p>
+<p><em>Technologies:</em> Java, Swing, C</p>
+<p><strong>Management of electronics folders</strong> - <em>ORGANIC</em></p>
+<p>The application of management of electronics folders is like an application of workflow. For example an employee, who has an issue with his computer, creates a folder which is automatically sent to the support department. A follow up and an historical back-up are automatically made. The interface between the user and the system is a web browser. I analyzed the current system to integrate new functionalities. I participated to the development of a new version in the aim to add new functionalities and improve the ergonomics of the intranet web site.</p>
+<p>Technologies: Java, Swing, Oracle, DB2</p>
+<p>TableMaster - ATRONIC</p>
+<p>The Tablemaster application is used to manage gambling tables in casinos. It is principally used by the croupier via a touch screen. This application has two roles: help the croupier to calculate the stakes and record the all data in the database. The interface between the client on the table and the database is made by a server via a link to the network. I took part to the development of the graphical interface (Java SWING). I also worked on the communication layer between the clients and the server.</p>
+<p>Technologies: Java, Swing</p>
+</dd>
+</dl>
+<h2 id="education">Education</h2>
+<dl>
+<dt>2000-2001</dt>
+<dd><strong>Master’s degree, Computer Science</strong>; Polytech'Nice-Sophia (Nice, France)
+</dd>
+<dt>1997-2000</dt>
+<dd><strong>BSc, Electrical engineering and Industrial data processing</strong>; Université Henri Poincaré (Nancy, France)
+</dd>
+</dl>
+<h2 id="languages">Languages</h2>
+<ul>
+<li>French</li>
+<li>English</li>
+</ul>
+<h2 id="certifications">Certifications</h2>
+<ul>
+<li><strong>Functional Programming Principles in Scala</strong>; Coursera May 2013</li>
+<li><strong>Principles of Reactive Programming</strong>; Coursera January 2014</li>
+<li><strong>M101J: MongoDB for Java Developers</strong>; MongoDB, Inc. October 2014</li>
+<li><strong>Machine Learning</strong>; Coursera Course Certificates License DA73W5923LTQ July 2016</li>
+</ul>
+</body>
+</html>
